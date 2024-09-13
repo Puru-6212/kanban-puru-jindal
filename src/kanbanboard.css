@@ -1,0 +1,134 @@
+
+
+/* Main Kanban board container */
+.kanban-board {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Controls for grouping and sorting */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .controls select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .display-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .icon-display {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .display-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+  
+  .submenu p {
+    margin: 0;
+    padding: 5px 0;
+    cursor: pointer;
+  }
+  
+  .submenu p:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .submenu-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Kanban columns container */
+  .kanban-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Individual kanban column */
+  .kanban-column {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    width: 30%;
+    min-height: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  /* Column heading */
+  .kanban-column h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Kanban card styles */
+  .kanban-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .kanban-card h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .card-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-priority {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .icon-add {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .icon-menu {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .message-count {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
